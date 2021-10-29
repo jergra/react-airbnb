@@ -26,7 +26,8 @@ function Map({ searchResults }) {
       width="100%"
       height="100%"
       mapStyle="mapbox://styles/jergra43/ckvbiuzcgcjnx14o3dwn1ewk7"
-      mapboxApiAccessToken={process.env.mapbox_key}
+      //mapboxApiAccessToken={process.env.mapbox_key}
+      mapboxApiAccessToken={mapbox_key}
       onViewportChange={(nextViewport) => setViewport(nextViewport)}
       {...viewport}
     >
