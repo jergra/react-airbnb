@@ -21,7 +21,7 @@ function search({ searchResults }) {
             300+ stay - {range} - for {noOfGuests} guests
           </p>
           <h1 className="mt-2 mb-6 text-3xl font-semibold">
-            Saty in {location}
+            Stay in {location}
           </h1>
           <div className="hidden mb-5 space-x-3 text-gray-800 lg:inline-flex whitespace-nowrap">
             <p className="button">Cancellation Flexibility</p>
