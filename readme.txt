@@ -17,5 +17,10 @@ update deployed website:
     git commit --m "message"
     git push
 
-pk.eyJ1IjoiamVyZ3JhNDMiLCJhIjoiY2t2Ymh4NGN5MGU5MDJ1cWlueHdjbWw1aiJ9.VF3OXHTsHo1m3QVBdWvYzA
+This website keeps secret key secret, i.e. not visible
+on github or 'View Page Source':
+    Map.js line 29
+    next.config.js
+    Vercel -> Project Settings -> Environmental Variable -> 
+    add mapbox_key here
                 
